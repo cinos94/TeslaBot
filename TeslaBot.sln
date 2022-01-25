@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaBot", "TeslaBotConsoleApp\TeslaBotConsoleApp.csproj", "{A699E376-CB21-4CB3-9EC2-C74236EEF6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaBotConsoleApp", "TeslaBotConsoleApp\TeslaBotConsoleApp.csproj", "{A699E376-CB21-4CB3-9EC2-C74236EEF6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaBotConsoleApp.Models", "TeslaBotConsoleApp.Models\TeslaBotConsoleApp.Models.csproj", "{DD20C4F2-F487-4AB7-BBB9-601C44673374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaBotConsoleApp.Core", "TeslaBotConsoleApp.Core\TeslaBotConsoleApp.Core.csproj", "{0FE7C928-571B-4F43-9600-9D95B66E6F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A699E376-CB21-4CB3-9EC2-C74236EEF6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A699E376-CB21-4CB3-9EC2-C74236EEF6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A699E376-CB21-4CB3-9EC2-C74236EEF6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD20C4F2-F487-4AB7-BBB9-601C44673374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD20C4F2-F487-4AB7-BBB9-601C44673374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD20C4F2-F487-4AB7-BBB9-601C44673374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD20C4F2-F487-4AB7-BBB9-601C44673374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE7C928-571B-4F43-9600-9D95B66E6F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE7C928-571B-4F43-9600-9D95B66E6F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE7C928-571B-4F43-9600-9D95B66E6F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE7C928-571B-4F43-9600-9D95B66E6F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
